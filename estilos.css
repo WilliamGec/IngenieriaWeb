@@ -1,0 +1,132 @@
+a
+{
+    color: #24BCA1;
+}
+body
+{
+    background: #EEEEEE;
+    font-size: 16px;
+    font-family: Arial;
+}
+header
+{
+    background: white;
+    overflow: hidden;
+    padding: 0.5em;
+    
+}
+header h1
+{
+    
+    display: inline-block;
+    font-size: 16px;
+}
+header h1 a
+{
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+header h1 a span
+{
+    font-weight: normal;
+}
+footer
+{
+    background: #444;
+    margin-top: 0.05;
+    padding: 1em;
+}
+footer p
+{
+    color: #99CC00;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+}
+footer p a
+{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+footer p span
+{
+    color: white;
+}
+nav 
+{
+    background: #444;
+    overflow: hidden;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0 0.5em;
+}
+nav ul li
+{
+    float: left;
+    list-style: none;    
+}
+nav ul li a
+{
+    color: white;
+    border: 1px solid #444;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #444;
+    background: #99CC00;
+    transition: .3s;
+}
+header #login
+{
+    background: #99CC00;
+    color: #444;
+    float: right;
+    font-size: 0.95em;
+    margin: 0;
+    overflow: hidden;
+    padding: 0.5em 0;
+}
+header #login span
+{
+    margin-left: 0.5em;
+    padding: 0.5em 0;
+}
+header #login a
+{
+    color: #444;
+    text-decoration: none;
+    padding: 0.5em;
+}
+header #logo
+{
+    border-right: 1px solid #444;
+    float: left;
+    margin-right:  0.5em ;
+    padding-right: 0.5em;    
+}
+header #logo img
+{
+    border: 1px solid #444;
+    border-radius: 50%;
+    transition: 0.5s;
+    width: 45px;
+}
+header #login a:hover
+{
+    color: white;
+    background: #444;
+    transition: .3s;   
+}
+header #logo img:hover
+{
+    --webkit--transition: 0.5s;
+    --webkit--transform: rotate(360deg);
+    
+}
